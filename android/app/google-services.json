@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "890536806900",
+    "project_id": "belajar-clean",
+    "storage_bucket": "belajar-clean.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890536806900:android:ef4b68fd830059a31451a1",
+        "android_client_info": {
+          "package_name": "com.example.clean_asrchitecture"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDASbzruDXKCDWmKtDtRI5qpEXu3o5eg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890536806900:android:d6321e90c89491071451a1",
+        "android_client_info": {
+          "package_name": "com.example.sweetique"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDASbzruDXKCDWmKtDtRI5qpEXu3o5eg0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
