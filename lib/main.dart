@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sweetique/core/routes/my_router.dart';
 import 'package:sweetique/core/theme/app_theme.dart';
 import 'package:sweetique/features/auth/presentation/bloc/auth_bloc.dart';
+import 'package:sweetique/features/product/presentation/bloc/product_bloc.dart';
 import 'package:sweetique/my_injection.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -26,6 +27,16 @@ class MyApp extends StatelessWidget {
               (context) => AuthBloc(
                 signInWithEmail: myinjection(),
                 registerWithEmail: myinjection(),
+              ),
+        ),
+        BlocProvider<ProductBloc>(
+          create:
+              (context) => ProductBloc(
+                productUsecaseAdd: myinjection(),
+                productUsecaseDelete: myinjection(),
+                productUsecaseEdit: myinjection(),
+                productUsecaseGetAll: myinjection(),
+                productUsecaseGetById: myinjection(),
               ),
         ),
       ],
